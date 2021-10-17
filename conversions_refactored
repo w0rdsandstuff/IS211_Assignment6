@@ -1,0 +1,4 @@
+class ConversionNotPossible(Exception):
+    print('Error')
+    
+    def convert(fromUnit, toUnit, value):
